@@ -29,7 +29,7 @@ func main() {
 
 	// Routing logic
 	mux.HandleFunc("GET /books", bookHandler.GetAllBooks)
-	mux.HandleFunc("GET /booksAll2", bookHandler.GetAllBooks)
+	mux.HandleFunc("GET /booksAll3", bookHandler.GetAllBooks)
 	mux.HandleFunc("GET /books/{id}", bookHandler.GetBook)
 	mux.HandleFunc("POST /books", bookHandler.CreateBook)
 
